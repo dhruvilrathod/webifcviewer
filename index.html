@@ -1,0 +1,54 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web IFC Viewer/Renderer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      overflow: hidden;
+    }
+
+    input:checked~.dot {
+      transform: translateX(100%);
+      background-color: #0d9eff;
+    }
+
+    input:checked~.block {
+      background-color: #3d3d3d;
+    }
+
+    ::-webkit-scrollbar {
+      width: 10px;
+      position: relative;
+      /* display: none; */
+    }
+
+    ::-webkit-scrollbar-button {
+      display: none;
+    }
+
+    ::-webkit-scrollbar-corner {
+      display: none;
+    }
+
+    ::-webkit-scrollbar-track {
+      background-color: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: darkgray;
+      border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: grey;
+    }
+  </style>
+</head>
+
+<body>
+  <app-root style="overflow: hidden !important;"></app-root>
+<script src="runtime.c36d562c35c1425c.js" type="module"></script><script src="polyfills.2016ff76391c27f4.js" type="module"></script><script src="main.72699da43c1ce47f.js" type="module"></script>
+
+</body></html>
